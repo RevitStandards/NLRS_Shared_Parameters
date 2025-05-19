@@ -199,7 +199,7 @@ PARAM	ae6415c2-f0fc-4f6f-a8aa-01ca070c9242	NLRS_C_actief    	YESNO		16	1	Is 
 PARAM	5cc06f7a-cfc0-48de-a035-2aadc3cefe34	NLRS_C_adres_id	TEXT		13	1	Het unieke ID van een adres conform de Aedes / UVIP ILS	1	0
 PARAM	8997e05b-6eef-4ebf-be94-1bd6befa6117	NLRS_C_aerosol vorming	YESNO		16	1	Er is (mogelijk) sprake van aerosol vorming	1	0
 PARAM	e0c884ef-3c3d-42c9-bb14-390e01d9923e	NLRS_C_aerosol vorming_eis	YESNO		16	1	Moet er rekening worden gehouden met aerosol vorming?	1	0
-PARAM	b52a0b46-8269-439e-a042-69dda934da49	NLRS_C_afgewezen	TEXT		13	1	Het voorstel is afgewezen	1	0
+PARAM	b52a0b46-8269-439e-a042-69dda934da49	NLRS_C_afgewezen	YESNO		16	1	Het voorstel is afgewezen	1	0
 PARAM	aa47a06a-94c0-481e-8748-b28041c5e98e	NLRS_C_afhakniveau tov peil	LENGTH		7	1	Toegepaste afhakniveau tov Peil. LET OP: dit zijn negatieve waarden. Deze zullen berekend moeten worden t.o.v. het aanlegniveau fundering, etc.	1	0
 PARAM	56143be6-f689-48f5-9dd9-1cc6f3dba47e	NLRS_C_afhakniveau tov peil_eis	LENGTH		7	1	Vereiste afhakniveau tov Peil.LET OP: dit zijn negatieve waarden. Deze zullen berekend moeten worden t.o.v. het aanlegniveau fundering, etc.	1	0
 PARAM	f7a3ff9d-ac8c-40b3-a426-66ea279fab54	NLRS_C_afstand	LENGTH		7	1	Afstand tussen 2 objecten of onderdelen van een object.	1	0
@@ -413,7 +413,7 @@ PARAM	298bb54e-1361-4fba-b195-e583fc57ab26	NLRS_C_gezamenlijk_eis	YESNO		16	1	Is
 PARAM	95729795-ede6-4c33-8da8-b867ba60d6b4	NLRS_C_GMPklasse 	TEXT		13	1	Toegepaste infiltratie niveau van de cleanroom conform de GMP classificatie	1	0
 PARAM	288e1744-2fcf-45f7-af4a-b9501b020b0d	NLRS_C_GMPklasse_eis       	TEXT		13	1	Vereiste infiltratie niveau van de cleanroom conform de GMP classificatie	1	0
 PARAM	18f18982-a407-45ea-9e3e-f0a087c612c4	NLRS_C_GO per persoon_min	AREA		2	1	Wat is het minimaal vereiste gebruiksoppervlak per persoon?	1	0
-PARAM	3447da28-b7d1-45a0-9d7d-b3310b988008	NLRS_C_goedgekeurd	TEXT		13	1	Het voorstel is goedgekeurd	1	0
+PARAM	3447da28-b7d1-45a0-9d7d-b3310b988008	NLRS_C_goedgekeurd	YESNO		16	1	Het voorstel is goedgekeurd	1	0
 PARAM	936b6342-fe07-4a9d-b1b1-a37c23a65544	NLRS_C_gtin_code	TEXT		13	1	GS1: Global Trade Information Number	1	0
 PARAM	bc732ab2-e43d-47ee-9ed1-0b4ee8b09822	NLRS_C_Gwaarde	TEXT		13	1	Geeft de G-waarde voor een glazen bouwdeel	1	0
 PARAM	086c00f3-26e9-4d18-b4eb-0f2b285ac762	NLRS_C_Gwaarde_max	TEXT		13	1	Maximaal toegestane G-waarde voor een glazen bouwdeel	1	0
