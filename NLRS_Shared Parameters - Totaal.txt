@@ -1129,7 +1129,7 @@ PARAM	041c8734-082d-445d-80e2-65d23ca9d01a	NLRS_C_ZTA	TEXT		13	1	Geeft de ZTA wa
 PARAM	bbd21242-be12-4388-876c-5c628821f1d7	NLRS_M_temperatuur ruimte_min	HVAC_TEMPERATURE		73	1	Ruimtetemperatuur waarde 01 (standaard wordt hier de minimum optredende ruimtetemperatuur gebruikt)	1	0
 PARAM	30260722-e80f-4cb1-a182-f9570faebcd2	NLRS_M_temperatuur ruimte_max	HVAC_TEMPERATURE		73	1	Ruimtetemperatuur waarde 01 (standaard wordt hier de maximum optredende ruimtetemperatuur gebruikt)	1	0
 PARAM	c0502076-e093-41ac-bb04-32b329ace5a7	NLRS_S_belastingmoment	MOMENT		108	1	Berekende / toegepaste belastingmoment op een constructief element	1	0
-PARAM	79b2f009-cef3-4182-895f-2463246ed68a	NLRS_S_gewicht	MASS		105	1	Gewicht van het object (enkel te gebruiken als Type Parameter.	1	0
+PARAM	79b2f009-cef3-4182-895f-2463246ed68a	NLRS_S_gewicht	MASS		105	1	Gewicht van het object	1	0
 PARAM	cc6c8d4e-4ff7-4cbd-b59c-ac9124bf346d	NLRS_S_gewicht per m	MASS_PER_UNIT_LENGTH		105	1	Gewicht van een lijnvormig object per m	1	0
 PARAM	fc0d44ac-ea89-44ac-870e-40e84e1357f0	NLRS_S_soortelijk gewicht	MASS_DENSITY		8	1	Soortelijk gewicht van het object in kg/m3	1	0
 PARAM	f8e13c63-dae7-4248-8ab1-263504377b23	NLRS_C_asset id	TEXT		13	1	Unieke ID van de Asset zoals in gebruik bij gebouweigenaar / -beheerder	1	0
