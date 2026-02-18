@@ -1,2 +1,7 @@
 
 desktop.ini
+
+# Microsoft Office lock/temp files
+~$*
+*.tmp
+*.xlk
