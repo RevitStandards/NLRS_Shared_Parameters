@@ -1130,8 +1130,8 @@ PARAM	bbd21242-be12-4388-876c-5c628821f1d7	NLRS_M_temperatuur ruimte_min	HVAC_TE
 PARAM	30260722-e80f-4cb1-a182-f9570faebcd2	NLRS_M_temperatuur ruimte_max	HVAC_TEMPERATURE		73	1	Ruimtetemperatuur waarde 01 (standaard wordt hier de maximum optredende ruimtetemperatuur gebruikt)	1	0
 PARAM	c0502076-e093-41ac-bb04-32b329ace5a7	NLRS_S_belastingmoment	MOMENT		108	1	Berekende / toegepaste belastingmoment op een constructief element	1	0
 PARAM	79b2f009-cef3-4182-895f-2463246ed68a	NLRS_S_gewicht	MASS		105	1	Gewicht van het object	1	0
-PARAM	cc6c8d4e-4ff7-4cbd-b59c-ac9124bf346d	NLRS_S_gewicht per m	MASS_PER_UNIT_LENGTH		105	1	Gewicht van een lijnvormig object per m	1	0
-PARAM	fc0d44ac-ea89-44ac-870e-40e84e1357f0	NLRS_S_soortelijk gewicht	MASS_DENSITY		8	1	Soortelijk gewicht van het object in kg/m3	1	0
+PARAM	cc6c8d4e-4ff7-4cbd-b59c-ac9124bf346d	NLRS_S_gewicht per m	MASS_PER_UNIT_LENGTH		127	1	Gewicht van een lijnvormig object per m	1	0
+PARAM	fc0d44ac-ea89-44ac-870e-40e84e1357f0	NLRS_C_soortelijk gewicht	MASS_DENSITY		8	1	Soortelijk gewicht van het object in kg/m3	1	0
 PARAM	f8e13c63-dae7-4248-8ab1-263504377b23	NLRS_C_asset id	TEXT		13	1	Unieke ID van de Asset zoals in gebruik bij gebouweigenaar / -beheerder	1	0
 PARAM	1df505a4-bd3f-41d9-8bbe-f2149512ba01	NLRS_C_asset type	TEXT		13	1	Type van de Asset zoals in gebruik bij gebouweigenaar / -beheerder	1	0
 PARAM	befa8979-7b23-4b1c-ab8e-3c463d0efa6f	NLRS_C_garantie_einddatum	TEXT		13	1	Einddatum van de garantietermijn	1	0
@@ -1479,7 +1479,7 @@ PARAM	a2b5019b-6705-413a-9532-6acfff984047	NLRS_C_Gwaarde_min	TEXT		13	1	Minimaa
 PARAM	e6d4227a-a368-43a1-a658-8a93ee1462a0	NLRS_C_aardlekschakelaar	YESNO		16	1	Is een meterkast cq schakelbord voorzien van een aardlekschakelaar?	1	0
 PARAM	5cc06f7a-cfc0-48de-a035-2aadc3cefe34	NLRS_C_adres_id	TEXT		13	1	Het unieke ID van een adres conform de Aedes / UVIP ILS	1	0
 PARAM	bc732ab2-e43d-47ee-9ed1-0b4ee8b09822	NLRS_C_Gwaarde	TEXT		13	1	Geeft de G-waarde voor een glazen bouwdeel	1	0
-PARAM	130aa8a6-041e-4c55-86e1-21f5ef921e0b	NLRS_S_oppervlakte doorsnede	SECTION_AREA		44	1	oppervlakte van de doorsnede van het profiel	1	0
+PARAM	130aa8a6-041e-4c55-86e1-21f5ef921e0b	NLRS_S_oppervlakte doorsnede	SECTION_AREA		122	1	oppervlakte van de doorsnede van het profiel	1	0
 PARAM	f4836656-8c4d-4880-a7fa-3d8e26324e8c	NLRS_C_asbesthoudend	YESNO		16	1	Is een element asbesthoudend?	1	0
 PARAM	8f4f32a3-708d-49ce-97f9-a8ebfa8504c4	NLRS_C_bagpand_id	TEXT		13	1	Het unieke ID van een BAG pand conform de Aedes / UVIP ILS	1	0
 PARAM	0350159e-be5c-4c46-9916-013dd8469b5f	NLRS_C_bagverblijfsobject_id	TEXT		13	1	Het unieke ID van een BAG verblijfsobject conform de Aedes / UVIP ILS	1	0
